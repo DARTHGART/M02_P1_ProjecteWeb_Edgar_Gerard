@@ -146,8 +146,6 @@
   .log_nov{
     display: inline;
     float: center;
-    border:15px solid #24252a;
-    background-color: #24252a;
     border-radius: 20px;
     margin-left: 25%;
   }
