@@ -247,9 +247,10 @@
     height: 320px;
     width: 380px;
     float: left;
-    margin-left: 25px;
     color: whitesmoke;
     text-align: center;
+    margin: 15px;
+    margin-left: 15px;
   }
 
   .esdev img{
