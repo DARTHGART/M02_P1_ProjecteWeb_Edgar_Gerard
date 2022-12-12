@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
     <title>Contatce/Esdeveniments</title>
     <link rel="icon" href="imatges/favicon.ico" type="image/ico">
     <link rel="stylesheet" href="index.css">
@@ -23,10 +24,10 @@
     </header>
 
     <div class="formulari">
-    <form action="formularis.php" method="post" enctype="multipart/form-data"></form>
+    <form action="formularis.php" method="post" enctype="multipart/form-data">
         <h3>Contacta amb EdGer Motos Yamaha</h3>
         <hr>
-        <legend>Les seves dades de contacte:</legend>
+        Les seves dades de contacte:<br>
         <br>
         Nom i Cognom<br>
         <input type="text" name="nom">
@@ -36,17 +37,19 @@
         <br>
 
         <br>
-        <legend>Modiu de la consulta:</legend>
+        Motiu de la consulta:<br>
+        <br>
         <input type="radio" name="motiu" value="preus/financiacio" > Preus/Financiacio
         <input type="radio" name="motiu" value="provar motos" > Provar motos
         <input type="radio" name="motiu" value="esdeveniments" > Esdeveniments
         <input type="radio" name="motiu" value="altres" checked="checked" > Altres
         <br>
+        <br>
         <label for="descripcion">Quina és la seva consulta?</label> <br>
         <textarea id="descripcion" name="descripcion" cols="30" rows="3"></textarea>
         <hr>
-        <input type="submit" name="enviar" value=" Envia " >
-        <input type="reset" name="limpiar" value=" Esborra dades " >
+        <input type="submit" name="enviar" value=" Envia ">
+        <input type="reset" name="limpiar" value=" Esborra dades ">
     </form>
     </div>
 
@@ -55,19 +58,19 @@
             <h2>Els esdeveniments actuals de yamaha! No te'ls perdis!</h2>
         </div>
         <div class="esdev">
-            <a href="https://www.yamaha-motor.eu/es/es/experiences/mx-pro-tour-2022/"><img src="imatges/mx_ProTour.jpg"></a>
+            <a href="https://www.yamaha-motor.eu/es/es/experiences/mx-pro-tour-2022/"><img src="imatges/mx_ProTour.jpg" alt="Esdev1"></a>
             <hr>
             <p>MX PRO TOUR</p>
             <a>Fes click a la imatge</a>
         </div>
         <div class="esdev">
-            <a href="https://www.yamaha-motor.eu/es/es/experiences/yamaha-on-road-/rutas-expertos-yamaha/"><img src="imatges/RoadsOfLife.jpg"></a>
+            <a href="https://www.yamaha-motor.eu/es/es/experiences/yamaha-on-road-/rutas-expertos-yamaha/"><img src="imatges/RoadsOfLife.jpg" alt="Esdev2"></a>
             <hr>
             <p>ROADS OF LIFE</p>
             <a>Fes click a la imatge</a>
         </div>
         <div class="esdev">
-            <a href="https://destination-yamaha-motor.com/"><img src="imatges/Destination.jpg"></a>
+            <a href="https://destination-yamaha-motor.eu/"><img src="imatges/Destination.jpg" alt="Esdev3"></a>
             <hr>
             <p>DESTINATION Yamaha Motors</p>
             <a>Fes click a la imatge</a>
